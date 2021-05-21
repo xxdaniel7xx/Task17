@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Муодуль 17</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="src/css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header>
+
+</header>
+<main>
+    <div class="container col-8 offset-2">
+        <div class="row">
+
+            <!-- TASK 1-->
+            <div class="Task1">
+                <div>
+                    <h3>Задача 1</h3>
+                </div>
+                <div class="flags">
+                    <div class="flag rus">
+                        <svg width="180" height="120">
+                            <rect x="0" y="0" width="180" height="40" fill="white" stroke="1px"></rect>
+                            <rect x="0" y="40" width="180" height="40" fill="blue"></rect>
+                            <rect x="0" y="80" width="180" height="40" fill="red"></rect>
+                        </svg>
+                    </div>
+                    <div class="flag fr">
+                        <svg width="180" height="120">
+                            <rect x="0" y="0" width="60" height="120" fill="darkblue" stroke="1px"></rect>
+                            <rect x="60" y="0" width="60" height="120" fill="white"></rect>
+                            <rect x="120" y="0" width="60" height="120" fill="crimson"></rect>
+                        </svg>
+                    </div>
+                    <div class="flag fin">
+                        <svg width="180" height="120">
+                            <rect x="0" y="0" width="180" height="120" fill="white"></rect>
+                            <line x1="0" y1="60" x2="180" y2="60" stroke-width="20px" stroke="darkblue"></line>
+                            <line x1="60" y1="0" x2="60" y2="120" stroke-width="20px" stroke="darkblue"></line>
+                        </svg>
+                    </div>
+                    <div  class="flag sw">
+                        <svg width="180" height="120">
+                            <rect x="0" y="0" width="180" height="120" fill="red"></rect>
+                            <rect x="70" y="15" width="40" height="90" fill="white"></rect>
+                            <rect x="45" y="40" width="90" height="40" fill="white"></rect>
+                        </svg>
+                    </div>
+                    <div class="flag jap">
+                        <svg width="180" height="120">
+                            <rect x="0" y="0" width="180" height="120" fill="white"></rect>
+                            <circle cx="90" cy="60" r="40" fill="red"></circle>
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- TASK 2-->
+            <div class="Task2">
+                <div>
+                    <h3>Задача 2</h3>
+                </div>
+                <div>
+                    <button class="btn btn-primary" id="changeBtn">
+                        <div id="ico1" >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-down-left-circle" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-5.904-2.854a.5.5 0 1 1 .707.708L6.707 9.95h2.768a.5.5 0 1 1 0 1H5.5a.5.5 0 0 1-.5-.5V6.475a.5.5 0 1 1 1 0v2.768l4.096-4.097z"/>
+                            </svg>
+                        </div>
+                        <div id="ico2" hidden>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-down-left-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-5.904-2.803a.5.5 0 1 1 .707.707L6.707 10h2.768a.5.5 0 0 1 0 1H5.5a.5.5 0 0 1-.5-.5V6.525a.5.5 0 0 1 1 0v2.768l4.096-4.096z"/>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <!-- TASK 3 & 4 -->
+            <div class="Task3-4">
+                <div>
+                    <h3>Задача 3 и 4</h3>
+                </div>
+                <div>
+                    <button class="btn btn-primary" id="btn2">Вывести данные</button>
+                </div>
+                <div>
+                    <p id="scrnSize"></p>
+                    <p id="coords"></p>
+                    <p id="time"></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- TASK 5 -->
+        <div>
+            <div>
+                <h3>Задача 5</h3>
+            </div>
+            <div class="chat">
+                <div class="chat__window" id="chatWindow">
+
+                </div>
+                <div class="chat_input">
+                    <input class="input__field col-7 offset-1" id="inputField">
+                    <button class="btn btn-success col-1" id="sendBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                    </button>
+                    <button class="btn btn-success col-1" id="geoBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-danger col-1" id="clearBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash2-fill" viewBox="0 0 16 16">
+                            <path d="M2.037 3.225A.703.703 0 0 1 2 3c0-1.105 2.686-2 6-2s6 .895 6 2a.702.702 0 0 1-.037.225l-1.684 10.104A2 2 0 0 1 10.305 15H5.694a2 2 0 0 1-1.973-1.671L2.037 3.225zm9.89-.69C10.966 2.214 9.578 2 8 2c-1.58 0-2.968.215-3.926.534-.477.16-.795.327-.975.466.18.14.498.307.975.466C5.032 3.786 6.42 4 8 4s2.967-.215 3.926-.534c.477-.16.795-.327.975-.466-.18-.14-.498-.307-.975-.466z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+<footer>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src="src/js/main.js"></script>
+</body>
+</html>
